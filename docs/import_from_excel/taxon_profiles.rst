@@ -115,7 +115,7 @@ Example: ``images/Oak.jpg```
 For the example Excel file, you would have a folder structure similar to this:
 
 | nature_guide
-| ├── Identify Trees.xlsx
+| ├── Taxon Profiles.xlsx
 | ├── images          
 | │     ├── Oak.jpg
 
