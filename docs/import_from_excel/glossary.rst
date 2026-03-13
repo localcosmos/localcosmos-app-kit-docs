@@ -26,21 +26,20 @@ Before you continue to read, it is recommended to download the example Excel fil
 The Columns
 ^^^^^^^^^^^
 
-The glossary Excel file has 3 columns: ``Term``, ``Synonyms`` and ``Definition``.
+The glossary Excel file has 4 columns: ``Term``, ``Synonyms``, ``Definition`` and ``Category``.
 
 
-+---+-------------------+-------------------------+---------------------------------------------------------------------------------------------------------------------------+
-|   | A                 | B                       | C                                                                                                                         |
-+---+-------------------+-------------------------+---------------------------------------------------------------------------------------------------------------------------+
-| 1 | Term              | Synonyms (optional)     | Definition                                                                                                                |
-+===+===================+=========================+===========================================================================================================================+
-| 2 | bark              |                         | Bark is the outermost layers of stems and roots of woody plants.                                                          |
-+---+-------------------+-------------------------+---------------------------------------------------------------------------------------------------------------------------+
-| 3 | Ash dieback       | Hymenoscyphus fraxineus | Hymenoscyphus fraxineus is an Ascomycete fungus that causes ash dieback, a chronic fungal disease of ash trees in Europe. |
-+---+-------------------+-------------------------+---------------------------------------------------------------------------------------------------------------------------+
-| 4 | Wood-decay fungus | Soft rot \| White rot   | A wood-decay fungus is any species of fungus that digests moist wood, causing it to rot.                                  |
-+---+-------------------+-------------------------+---------------------------------------------------------------------------------------------------------------------------+
-
++---+-------------------+-------------------------+---------------------------------------------------------------------------------------------------------------------------+---------------------+
+|   | A                 | B                       | C                                                                                                                         | D                   |
++---+-------------------+-------------------------+---------------------------------------------------------------------------------------------------------------------------+---------------------+
+| 1 | Term              | Synonyms (optional)     | Definition                                                                                                                | Category (optional) |
++===+===================+=========================+===========================================================================================================================+=====================+
+| 2 | bark              |                         | Bark is the outermost layers of stems and roots of woody plants.                                                          |                     |
++---+-------------------+-------------------------+---------------------------------------------------------------------------------------------------------------------------+---------------------+
+| 3 | Ash dieback       | Hymenoscyphus fraxineus | Hymenoscyphus fraxineus is an Ascomycete fungus that causes ash dieback, a chronic fungal disease of ash trees in Europe. |                     |
++---+-------------------+-------------------------+---------------------------------------------------------------------------------------------------------------------------+---------------------+
+| 4 | Wood-decay fungus | Soft rot \| White rot   | A wood-decay fungus is any species of fungus that digests moist wood, causing it to rot.                                  |                     |
++---+-------------------+-------------------------+---------------------------------------------------------------------------------------------------------------------------+---------------------+
 
 **Column A: Term**
 
@@ -55,6 +54,11 @@ One or more synonyms of the term. Separated by the character "|". Synonyms are a
 **Column C: Definition**
 
 The definition of the term.
+
+
+**Column D: Category**
+
+The category of the term. You can use this column to group your glossary terms into categories.
 
 
 3. Uploading data

@@ -18,9 +18,9 @@ Each images sheet has to have the following columns:
 * **Licence**: the licence of the image. This is required for all images.
 * **Licence version**: the version of the licence. This is required for all images.
 * **Link to source image (optional)**: the link to the source image. This is optional.
-* **Title (optional)**: the title of the image. This is optional.
-* **Caption (optional)**: the caption of the image. This is optional.
-* **Alt text (optional)**: the alt text of the image. This is optional.
+* **Title (optional)**: the title of the image. This is optional. Titles can be shown using mouseovers and are also read by search engines.
+* **Caption (optional)**: the caption of the image. This is optional. Captions are usually shown below the image.
+* **Alt text (optional)**: the alt text of the image. This is optional. Alt text is used by search engines and screen readers. It is important to provide alt text for accessibility reasons.
 * **Primary image (optional)**: If you have more than one image for an entity (e.g. a Taxon profile), you can mark one of them as the primary image. This is optional.
 
 

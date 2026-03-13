@@ -7,7 +7,7 @@ Import from Excel
    :maxdepth: 2
    :caption: Contents:
 
-   import_from_excel
+   self
    import_from_excel/basics
    import_from_excel/backbone_taxonomy
    import_from_excel/glossary
